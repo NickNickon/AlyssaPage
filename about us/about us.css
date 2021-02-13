@@ -10,6 +10,8 @@
 
 .nav {
 	background-color: #C299C2;
+	box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
 }
 
 .nav__li{
@@ -35,10 +37,16 @@
 	box-sizing: border-box;
 	text-align: right;
 	margin-right: 5px;
+	box-shadow: 1px 1px 2px rgba(165, 177, 198, 0.8),
+    -1px -1px -2px rgba(255, 255, 255, 0.8);
 }
 
 body{
 	background-color: #E8E8E8;
+}
+
+.Home {
+	text-shadow: 1px 1px 1px gray;
 }
 
 .Home h1{
@@ -47,10 +55,10 @@ body{
 	display: inline-block;
 	border:  ##bf9b9f solid 1px;
 	background: #EBBFC4;
-	box-shadow: 10px;
-	text-shadow: 10px;
+	box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
 	border-style: groove, lightgrey;
-	border-radius: 3px;
+	border-radius: 12px;
 }
 
 .Home img{
@@ -59,7 +67,9 @@ body{
 	display: block;
 	width: 250px;
 	height: 250px;
-	border-radius: 3px;
+	border-radius: 50%;
+ 	box-shadow: 4px 4px 4px rgba(165, 177, 198, 0.8);
+    cursor: pointer;
 }
 
 .Home p, #p2{
@@ -68,10 +78,26 @@ body{
 	display: block;
 	border:  ##bf9b9f solid 1px;
 	background: #EBBFC4;
-	box-shadow: 10px;
-	text-shadow: 10px;
+	box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
 	border-style: groove, lightgrey;
-	border-radius: 3px;
+	border-radius: 12px;
+}
+
+#p2 a{
+	color: white;
+	text-decoration: none;
+}
+
+#p2 a:hover{
+	color: #969595;
+	text-decoration: none;
+}
+
+hr{
+	height: 5px;
+	border: 7px solid #lightgrey;
+	box-shadow: 3px 3px 6px lightgrey;
 }
 
 @media only screen and (max-width: 480px) { 
