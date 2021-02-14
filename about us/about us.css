@@ -61,7 +61,7 @@ body{
 	border-radius: 12px;
 }
 
-.Home img{
+.Home .galaxy{
 	padding: 25px;
 	margin: 15px;
 	display: block;
@@ -99,6 +99,28 @@ hr{
 	border: 7px solid #lightgrey;
 	box-shadow: 3px 3px 6px lightgrey;
 }
+
+.Home .bora{
+	padding: 25px;
+	margin: 15px;
+	display: inline;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+ 	box-shadow: 4px 4px 4px rgba(165, 177, 198, 0.8);
+    cursor: pointer;
+}
+
+.Home .greece{
+	padding: 25px;
+	margin: 15px;
+	display: inline;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+ 	box-shadow: 4px 4px 4px rgba(165, 177, 198, 0.8);
+    cursor: pointer;
+    }
 
 @media only screen and (max-width: 480px) { 
 	.nav__ul{
